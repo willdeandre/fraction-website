@@ -6,9 +6,10 @@ import Footer from "@/components/Footer";
 
 
 const inquiryTypes = [
-  "NIL & Player Development",
-  "Advisory",
+  "NIL Representation",
+  "Professional Representation",
   "Marketing",
+  "Player Development",
   "Analytics",
   "General Inquiry",
 ];
@@ -69,7 +70,7 @@ export default function Contact() {
 
             <div className="flex flex-col gap-6">
               <div>
-                <p className="mb-1 text-xs tracking-[0.3em] uppercase text-white/30">
+                <p className="mb-5 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
                   Email
                 </p>
                 <a
@@ -79,27 +80,14 @@ export default function Contact() {
                   contact@fractionllc.com
                 </a>
               </div>
-
-              <div>
-                <p className="mb-1 text-xs tracking-[0.3em] uppercase text-white/30">
-                  Follow
-                </p>
-                <div className="flex gap-6 text-sm text-white/70">
-                  <a href="https://www.instagram.com/fraction__/" target="_blank" rel="noopener noreferrer" className="hover:text-[#72B8E2] transition-colors">Instagram</a>
-                  <a href="https://x.com/fraction___?s=11" target="_blank" rel="noopener noreferrer" className="hover:text-[#72B8E2] transition-colors">X</a>
-                  <a href="https://www.linkedin.com/company/fractionllc/" target="_blank" rel="noopener noreferrer" className="hover:text-[#72B8E2] transition-colors">LinkedIn</a>
-                </div>
-              </div>
             </div>
 
             {/* Divider + tagline */}
-            <div className="border-t border-white/10 pt-10">
-              <p className="text-2xl font-semibold tracking-tight leading-snug text-white/20">
+              <p className="text-4xl font-semibold tracking-tight leading-snug text-white/20">
                 Precision.<br />
                 <span className="text-[#72B8E2]/40">Trust.</span><br />
                 Execution.
               </p>
-            </div>
           </div>
 
           {/* Vertical divider */}
