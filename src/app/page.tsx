@@ -3,19 +3,24 @@ import Footer from "@/components/Footer";
 
 const services = [
   {
-    label: "NIL & Player Development",
+    label: "NIL",
     description:
       "Guiding athletes through Name, Image, and Likeness opportunities with strategic counsel and long-term development frameworks.",
   },
   {
-    label: "Advisory",
+    label: "Player Development",
     description:
       "Providing precise, actionable guidance to organizations and individuals navigating high-stakes decisions while facing extreme uncertainty.",
   },
   {
-    label: "Marketing",
+    label: "FIBA",
     description:
       "Building brand narratives that resonate — from positioning strategy to campaign execution — with clarity and conviction.",
+  },
+  {
+    label: "Marketing",
+    description:
+      "Translating data into decisions. We surface the insights that drive performance and inform every strategic move.",
   },
   {
     label: "Analytics",
@@ -58,8 +63,8 @@ export default function Home() {
         </h1>
 
         <p className="mt-8 max-w-md text-base leading-7 text-white/50">
-          Fraction is a professional services firm built for those who demand
-          more — sharper strategy, stronger execution, and results that hold up.
+          Fraction is a full service firm built for athletes and brands looking to grow 
+          — sharper strategy, stronger execution, and results that hold up.
         </p>
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row">
