@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const credentials = [
-  "NBPA Certified Agent",
   "2025 Top 80 Most Influential Person in NIL",
   "Graduate Assistant Coach, Vanderbilt University",
   "Team Captain, Lehigh University",
@@ -58,7 +57,7 @@ export default function About() {
               <div className="absolute left-0 top-0 h-full w-0.75 bg-linear-to-b from-[#72B8E2] to-transparent" />
               <Image
                 src="/jack-lieb.png"
-                alt="Jack Lieb — Founder & CEO of Fraction LLC"
+                alt="Jack Lieb — Founder of Fraction"
                 width={480}
                 height={560}
                 className="w-full object-cover grayscale"
@@ -69,7 +68,7 @@ export default function About() {
             <div>
               <h2 className="text-2xl font-semibold tracking-tight">Jack Lieb</h2>
               <p className="mt-1 text-sm tracking-widest uppercase text-[#72B8E2]">
-                Founder &amp; CEO
+                Founder
               </p>
             </div>
           </div>
@@ -78,11 +77,11 @@ export default function About() {
           <div className="flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-5 text-sm leading-8 text-white/55">
               <p>
-                Jack Lieb is the Founder and CEO of Fraction. A former collegiate athlete 
+                Jack Lieb is the Founder of Fraction. A former collegiate athlete 
                 and coach, Jack understands and cares deeply about his players.
                 He built Fraction on the belief that athletes deserve precise, 
                 trusted representation — not just at the negotiating table, but throughout 
-                their entire career arc.
+                all areas of their life.
               </p>
               <p>
                 Jack has experience as a Graduate Assistant Coach at Vanderbilt

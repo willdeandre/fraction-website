@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="bg-white rounded-sm p-1.5">
           <Image
             src="/logo.png"
-            alt="Fraction LLC"
+            alt="Fraction"
             width={32}
             height={32}
             className="block object-contain"
@@ -33,7 +33,7 @@ export default function Footer() {
           ))}
         </div>
         <span className="text-xs text-white/25">
-          © {new Date().getFullYear()} Fraction LLC
+          © {new Date().getFullYear()} Fraction 
         </span>
       </div>
     </footer>
