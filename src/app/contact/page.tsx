@@ -17,10 +17,36 @@ const inquiryTypes = [
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  function handleSubmit(e: React.SyntheticEvent) {
+  async function handleSubmit(e: React.SyntheticEvent) {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError(null);
+
+    const form = e.currentTarget as HTMLFormElement;
+    const data = {
+      first: (form.elements.namedItem("first") as HTMLInputElement).value,
+      last: (form.elements.namedItem("last") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      inquiryType: selected,
+    };
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      setError("Something went wrong. Please try again or email us directly.");
+    }
+
+    setLoading(false);
   }
 
   return (
@@ -190,12 +216,18 @@ export default function Contact() {
                   />
                 </div>
 
-                <button
-                  type="submit"
-                  className="self-start border border-[#72B8E2] text-[#72B8E2] px-8 py-3.5 text-sm tracking-widest uppercase transition-all hover:bg-[#72B8E2] hover:text-black"
-                >
-                  Send Message
-                </button>
+                <div className="flex flex-col gap-3">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="self-start border border-[#72B8E2] text-[#72B8E2] px-8 py-3.5 text-sm tracking-widest uppercase transition-all hover:bg-[#72B8E2] hover:text-black disabled:opacity-40 disabled:cursor-not-allowed"
+                  >
+                    {loading ? "Sending..." : "Send Message"}
+                  </button>
+                  {error && (
+                    <p className="text-xs text-red-400">{error}</p>
+                  )}
+                </div>
               </form>
             )}
           </div>
