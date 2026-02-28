@@ -4,9 +4,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const credentials = [
+  "NIL Certified Agent",
   "2025 Top 80 Most Influential Person in NIL",
   "Graduate Assistant Coach, Vanderbilt University",
+  "Master's of Economics, Vanderbilt University",
   "Team Captain, Lehigh University",
+  "Bachelor's of Finance, Lehigh University",
+  "Bachelor's of Finance, Lehigh University",
 ];
 
 const stats = [
@@ -132,13 +136,6 @@ export default function About() {
       {/* CTA */}
       <section className="border-t border-[#72B8E2]/50 px-6 py-24 text-center">
         <div className="mx-auto max-w-xl">
-          <h2 className="mb-4 text-3xl font-semibold tracking-tight md:text-4xl">
-            Ready to work together?
-          </h2>
-          <p className="mb-10 text-sm leading-7 text-white/50">
-            Whether you&apos;re an athlete exploring NIL or an organization
-            seeking strategic guidance, Fraction is ready.
-          </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href="/contact"

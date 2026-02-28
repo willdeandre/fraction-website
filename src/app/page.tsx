@@ -149,13 +149,6 @@ export default function Home() {
           <p className="mb-4 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
             Contact
           </p>
-          <h2 className="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">
-            Let&apos;s talk.
-          </h2>
-          <p className="mb-10 text-white/50 text-sm leading-7">
-            Whether you&apos;re an athlete, a brand, or an organization ready
-            to level up — reach out and we&apos;ll get to work.
-          </p>
           <a
             href="/contact"
             className="inline-block border border-[#72B8E2] text-[#72B8E2] px-10 py-4 text-sm tracking-widest uppercase transition-all hover:bg-[#72B8E2] hover:text-black"
