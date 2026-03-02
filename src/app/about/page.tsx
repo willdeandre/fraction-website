@@ -97,7 +97,7 @@ export default function About() {
               <p>
                 Recognized as one of the 2025 Top 80 Most Influential People in
                 NIL, Jack continues to shape the future of athlete representation
-                through Fraction&apos;s NIL, player development, FIBA, marketing, and analytics services.
+                through Fraction&apos;s NIL, NBA, player development, FIBA, marketing, and analytics services.
               </p>
             </div>
 
