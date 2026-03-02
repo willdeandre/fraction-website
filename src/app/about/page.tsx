@@ -76,6 +76,33 @@ export default function About() {
                 Founder
               </p>
             </div>
+
+            {/* 2x2 affiliation logos */}
+            <div className="grid grid-cols-2 gap-px w-full max-w-sm">
+              {[
+                { name: "Vanderbilt", src: "/vanderbilt-logo.png" },
+                { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
+                { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
+                { name: "Lehigh University", src: "/lehigh-logo.png" },
+              ].map((logo) => (
+                <div
+                  key={logo.name}
+                  className="group flex flex-col items-center justify-center gap-3 border border-white/10 p-6 transition-colors hover:border-[#72B8E2]/30 hover:bg-[#72B8E2]/5"
+                >
+                  <div className="relative h-10 w-24">
+                    <Image
+                      src={logo.src}
+                      alt={logo.name}
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                  <span className="text-xs tracking-widest uppercase text-transparent transition-colors group-hover:text-white/40">
+                    {logo.name}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Right — bio + credentials */}
@@ -111,6 +138,40 @@ export default function About() {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Affiliations */}
+      <section className="border-t border-[#72B8E2]/50 px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+          <p className="mb-12 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70 text-center">
+            Affiliated With
+          </p>
+          <div className="grid grid-cols-2 gap-px md:grid-cols-4">
+            {[
+              { name: "Vanderbilt", src: "/vanderbilt-logo.png" },
+              { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
+              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
+              { name: "Lehigh University", src: "/lehigh-logo.png" },
+            ].map((logo) => (
+              <div
+                key={logo.name}
+                className="group flex flex-col items-center justify-center gap-4 border border-white/10 p-10 transition-colors hover:border-[#72B8E2]/30 hover:bg-[#72B8E2]/5"
+              >
+                <div className="relative h-12 w-32">
+                  <Image
+                    src={logo.src}
+                    alt={logo.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <span className="text-xs tracking-widest uppercase text-transparent transition-colors group-hover:text-white/40">
+                  {logo.name}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
