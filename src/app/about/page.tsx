@@ -15,7 +15,6 @@ const credentials = [
 ];
 
 const stats = [
-  { value: "100+", label: "Athletes Served" },
   { value: "$10M+", label: "Structured in Client Compensation" },
   { value: "2025", label: "Top 80 Most Influential in NIL" },
 ];
@@ -76,33 +75,6 @@ export default function About() {
                 Founder
               </p>
             </div>
-
-            {/* 2x2 affiliation logos */}
-            <div className="grid grid-cols-2 gap-px w-full max-w-sm">
-              {[
-                { name: "Vanderbilt", src: "/vanderbilt-logo.png" },
-                { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
-                { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
-                { name: "Lehigh University", src: "/lehigh-logo.png" },
-              ].map((logo) => (
-                <div
-                  key={logo.name}
-                  className="group flex flex-col items-center justify-center gap-3 border border-white/10 p-6 transition-colors hover:border-[#72B8E2]/30 hover:bg-[#72B8E2]/5"
-                >
-                  <div className="relative h-10 w-24">
-                    <Image
-                      src={logo.src}
-                      alt={logo.name}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                  <span className="text-xs tracking-widest uppercase text-transparent transition-colors group-hover:text-white/40">
-                    {logo.name}
-                  </span>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Right — bio + credentials */}
@@ -119,13 +91,12 @@ export default function About() {
                 Jack has experience as a Graduate Assistant Coach at Vanderbilt
                 University, where he worked under NBA legend Jerry Stackhouse and coached NBA player Scotty Pippen Jr.
                 He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors distinction. 
-                Jack brings a rare combination of on-court knowledge and business acumen; he has served
-                over 100 athletes and structured more than $10 million in compensation for his clients.
+                Jack brings a rare combination of on-court knowledge and business acumen; he has structured more than $10 million in compensation for his clients.
               </p>
               <p>
                 Recognized as one of the 2025 Top 80 Most Influential People in
                 NIL, Jack continues to shape the future of athlete representation
-                through Fraction&apos;s valuation, marketing, and analytics services.
+                through Fraction&apos;s NIL, player development, FIBA, marketing, and analytics services.
               </p>
             </div>
 
@@ -145,15 +116,13 @@ export default function About() {
       {/* Affiliations */}
       <section className="border-t border-[#72B8E2]/50 px-6 py-20">
         <div className="mx-auto max-w-7xl">
-          <p className="mb-12 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70 text-center">
-            Affiliated With
-          </p>
           <div className="grid grid-cols-2 gap-px md:grid-cols-4">
             {[
               { name: "Vanderbilt", src: "/vanderbilt-logo.png" },
-              { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
-              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
               { name: "Lehigh University", src: "/lehigh-logo.png" },
+              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
+              { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
+
             ].map((logo) => (
               <div
                 key={logo.name}
@@ -178,7 +147,7 @@ export default function About() {
 
       {/* Stats */}
       <section className="border-t border-[#72B8E2]/50 px-6 py-24">
-        <div className="mx-auto max-w-7xl grid grid-cols-1 gap-px sm:grid-cols-3">
+        <div className="mx-auto max-w-2xl grid grid-cols-1 gap-px sm:grid-cols-2">
           {stats.map((stat) => (
             <div
               key={stat.value}

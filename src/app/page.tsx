@@ -5,27 +5,32 @@ const services = [
   {
     label: "NIL",
     description:
-      "Guiding athletes through Name, Image, and Likeness opportunities with strategic counsel and long-term development frameworks.",
+      "Structuring and negotiating Name, Image, and Likeness opportunities with a focus on long-term brand equity, contract optimization, and sustainable athlete growth.",
   },
   {
     label: "Player Development",
     description:
-      "Providing precise, actionable guidance to organizations and individuals navigating high-stakes decisions while facing extreme uncertainty.",
+      "Designing individualized development plans that integrate skill progression, performance analytics, and professional readiness to maximize on-court impact.",
   },
   {
     label: "FIBA",
     description:
-      "Building brand narratives that resonate — from positioning strategy to campaign execution — with clarity and conviction.",
+      "Advising players and partners in international basketball markets, including contract navigation, league placement strategy, and global positioning.",
+  },
+  {
+    label: "NBA",
+    description:
+      "Representing and advising players at the NBA and G League levels, including contract negotiation, career strategy, team fit evaluation, and long- term financial positioning.",
   },
   {
     label: "Marketing",
     description:
-      "Translating data into decisions. We surface the insights that drive performance and inform every strategic move.",
+      "Building athlete and organizational brands through positioning strategy, partnership alignment, and targeted campaign execution.",
   },
   {
     label: "Analytics",
     description:
-      "Translating data into decisions. We surface the insights that drive performance and inform every strategic move.",
+      "Leveraging performance data, market intelligence, and financial modeling to inform smarter decisions on and off the court.",
   },
 ];
 

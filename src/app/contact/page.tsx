@@ -71,9 +71,9 @@ export default function Contact() {
         </div>
 
         <h1 className="text-5xl font-semibold tracking-tight md:text-7xl">
-          Let&apos;s get
+          It all starts
           <br />
-          <span className="text-[#72B8E2]">to work.</span>
+          <span className="text-[#72B8E2]">here.</span>
         </h1>
       </section>
 
