@@ -10,7 +10,8 @@ const credentials = [
   "Master's of Economics, Vanderbilt University",
   "Team Captain, Lehigh University",
   "Bachelor's of Finance, Lehigh University",
-  "Bachelor's of Finance, Lehigh University",
+  "Illinois Wolves Alumni",
+  "Brewster Academy Alumni",
 ];
 
 const stats = [
