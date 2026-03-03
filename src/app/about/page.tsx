@@ -7,7 +7,7 @@ const credentials = [
   "NBPA Certified Agent",
   "NIL Certified Agent",
   "2025 Top 80 Most Influential Person in NIL",
-  "Graduate Assistant Coach, Vanderbilt University",
+  "Graduate Assistant, Vanderbilt University",
   "Master's of Economics, Vanderbilt University",
   "Team Captain, Lehigh University",
   "Bachelor's of Finance, Lehigh University",
@@ -89,10 +89,9 @@ export default function About() {
                 all areas of their life.
               </p>
               <p>
-                Jack has experience as a Graduate Assistant Coach at Vanderbilt
-                University, where he worked under NBA legend Jerry Stackhouse and coached NBA player Scotty Pippen Jr.
-                He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors distinction. 
-                Jack brings a rare combination of on-court knowledge and business acumen; he has structured more than $10 million in compensation for his clients.
+                Jack has experience as a Graduate Assistant at Vanderbilt University, where he worked under NBA legend Jerry Stackhouse and coached NBA player Scotty Pippen Jr
+                while earning a master's degree in applied economics. He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors
+                distinction. Jack brings a rare combination of on-court knowledge and business acumen; he has structured more than $10 million in compensation for his clients.
               </p>
               <p>
                 Recognized as one of the 2025 Top 80 Most Influential People in
@@ -129,7 +128,7 @@ export default function About() {
                 key={logo.name}
                 className="group flex flex-col items-center justify-center gap-4 border border-white/10 p-10 transition-colors hover:border-[#72B8E2]/30 hover:bg-[#72B8E2]/5"
               >
-                <div className="relative h-12 w-32">
+                <div className="relative h-12 w-32 transition-transform duration-300 group-hover:scale-120">
                   <Image
                     src={logo.src}
                     alt={logo.name}
