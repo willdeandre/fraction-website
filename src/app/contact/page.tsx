@@ -100,7 +100,7 @@ export default function Contact() {
                   Email
                 </p>
                 <a
-                  href="mailto:contact@fractionllc.com"
+                  href="mailto:willdeandre@gmail.com"
                   className="text-sm text-white/70 transition-colors hover:text-[#72B8E2]"
                 >
                   contact@fractionllc.com

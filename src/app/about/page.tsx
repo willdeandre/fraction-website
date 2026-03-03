@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const credentials = [
-  "NIL Certified Agent",
   "NBPA Certified Agent",
+  "NIL Certified Agent",
   "2025 Top 80 Most Influential Person in NIL",
   "Graduate Assistant Coach, Vanderbilt University",
   "Master's of Economics, Vanderbilt University",

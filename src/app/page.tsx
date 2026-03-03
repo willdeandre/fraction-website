@@ -3,6 +3,11 @@ import Footer from "@/components/Footer";
 
 const services = [
   {
+    label: "NBA",
+    description:
+      "Representing and advising players at the NBA and G League levels, including contract negotiation, career strategy, team fit evaluation, and long- term financial positioning.",
+  },
+  {
     label: "NIL",
     description:
       "Structuring and negotiating Name, Image, and Likeness opportunities with a focus on long-term brand equity, contract optimization, and sustainable athlete growth.",
@@ -16,11 +21,6 @@ const services = [
     label: "FIBA",
     description:
       "Advising players and partners in international basketball markets, including contract navigation, league placement strategy, and global positioning.",
-  },
-  {
-    label: "NBA",
-    description:
-      "Representing and advising players at the NBA and G League levels, including contract negotiation, career strategy, team fit evaluation, and long- term financial positioning.",
   },
   {
     label: "Marketing",
@@ -133,13 +133,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-center gap-6 text-white/50 text-sm leading-8">
             <p>
-              Fraction is a Chicago-based professional services firm dedicated
-              to delivering precise, trusted, and expertly executed strategies
-              for athletes, brands, and organizations.
+              Fraction is dedicated to delivering elite strategy and execution to its clients. precise,
+              trusted, and expertly executed strategies for athletes, brands, and organizations.
             </p>
             <p>
-              We operate at the intersection of sport, business, and strategy —
-              bringing the same rigor to every engagement regardless of size.
+              We operate at the intersection of sports and business —
+              bringing care and dedication to every client regardless of size.
             </p>
           </div>
         </div>
