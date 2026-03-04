@@ -82,7 +82,7 @@ export default function About() {
           <div className="flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-5 text-sm leading-8 text-white/55">
               <p>
-                Jack Lieb is the Founder of Fraction. A former collegiate athlete 
+                Jack Lieb is the Founder of Fraction and an NBPA Certified Agent. A former collegiate athlete 
                 and coach, Jack understands and cares deeply about his players.
                 He built Fraction on the belief that athletes deserve precise, 
                 trusted representation — not just at the negotiating table, but throughout 
