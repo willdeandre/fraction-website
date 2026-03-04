@@ -68,7 +68,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-8 max-w-md text-base leading-7 text-white/50">
-          Fraction is a full service firm built for athletes and brands looking to grow 
+          Fraction is a full-service firm built for athletes and brands looking to grow 
           — sharper strategy, stronger execution, and results that hold up.
         </p>
 
