@@ -133,8 +133,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-center gap-6 text-white/50 text-sm leading-8">
             <p>
-              Fraction is dedicated to delivering elite strategy and execution to its clients. precise,
-              trusted, and expertly executed strategies for athletes, brands, and organizations.
+              Fraction is dedicated to delivering elite strategy and execution to its clients.
             </p>
             <p>
               We operate at the intersection of sports and business —
