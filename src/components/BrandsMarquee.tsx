@@ -3,23 +3,23 @@
 import Image from "next/image";
 
 const brands = [
-    { name: "AT&T", src: "/brands/att.png" },
-    { name: "Clemson", src: "/brands/clemson.png" },
-    { name: "Hampton", src: "/brands/hampton.png" },
-    { name: "Illinois State", src: "/brands/illinois-state.png" },
     { name: "Illinois", src: "/brands/illinois.png" },
     { name: "McDonald's", src: "/brands/mcdonalds.png" },
-    { name: "Minnesota", src: "/brands/minnesota.png" },
-    { name: "Pancheros", src: "/brands/pancheros.png" },
-    { name: "SKIMS", src: "/brands/skims.png" },
-    { name: "Smoothie King", src: "/brands/smoothie-king.png" },
-    // not showing { name: "Tennessee State", src: "/brands/tennessee-state.png" },
-    { name: "Texas", src: "/brands/texas.png" },
-    { name: "Topps", src: "/brands/topps.png" },
-    { name: "UCF", src: "/brands/ucf.png" },
     { name: "USC", src: "/brands/usc.png" },
     { name: "Virginia", src: "/brands/virginia.png" },
+    { name: "AT&T", src: "/brands/att.png" },
     { name: "Washington", src: "/brands/washington.png" },
+    { name: "SKIMS", src: "/brands/skims.png" },
+    { name: "Smoothie King", src: "/brands/smoothie-king.png" },
+    { name: "Clemson", src: "/brands/clemson.png" },
+    { name: "UCF", src: "/brands/ucf.png" },
+    { name: "Hampton", src: "/brands/hampton.png" },
+    { name: "Minnesota", src: "/brands/minnesota.png" },
+    { name: "Pancheros", src: "/brands/pancheros.png" },
+    { name: "Texas", src: "/brands/texas.png" },
+    { name: "Illinois State", src: "/brands/illinois-state.png" },
+    { name: "Topps", src: "/brands/topps.png" },
+    // not showing { name: "Tennessee State", src: "/brands/tennessee-state.png" },
 ];
 
 // duplicate for seamless looping
