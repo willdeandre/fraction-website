@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BrandsMarquee from "@/components/BrandsMarquee";
 
 const services = [
   {
@@ -88,13 +89,15 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section id="services" className="px-6 py-32">
+      <section id="services" className="border-t border-[#72B8E2]/50 px-6 py-32">
         <div className="mx-auto max-w-7xl">
           <p className="mb-4 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
             What We Do
           </p>
           <h2 className="mb-16 max-w-md text-4xl font-semibold tracking-tight md:text-5xl">
-            Built for the work that matters.
+            Built for the
+            <br />
+            <span className="text-[#72B8E2]">work that matters.</span>
           </h2>
 
           <div className="grid grid-cols-1 gap-px md:grid-cols-2">
@@ -118,6 +121,8 @@ export default function Home() {
         </div>
       </section>
 
+      <BrandsMarquee />
+
       {/* About */}
       <section id="about" className="border-t border-[#72B8E2]/50 px-6 py-32">
         <div className="mx-auto max-w-7xl grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-32">
@@ -127,6 +132,7 @@ export default function Home() {
             </p>
             <h2 className="text-4xl font-semibold tracking-tight md:text-5xl">
               A firm built on{" "}
+              <br />
               <span className="text-[#72B8E2]">trust.</span>
             </h2>
           </div>
