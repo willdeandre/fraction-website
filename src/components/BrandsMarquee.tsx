@@ -41,21 +41,21 @@ export default function BrandsMarquee() {
 
             <div className="relative overflow-hidden border-t border-b border-white/10">
                 {/* edge fades */}
-                <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-linear-to-r from-black to-transparent" />
-                <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-linear-to-l from-black to-transparent" />
+                <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-40 bg-linear-to-r from-black to-transparent" />
+                <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-40 bg-linear-to-l from-black to-transparent" />
 
                 <div className="brands-marquee group flex w-max items-center gap-0 hover:[animation-play-state:paused]">
                     {loopedBrands.map((brand, i) => (
                         <div
                             key={`${brand.name}-${i}`}
-                            className="flex h-24 w-44 shrink-0 items-center justify-center border-r border-white/10 px-6"
+                            className="flex h-36 w-64 shrink-0 items-center justify-center border-r border-white/10 px-10"
                         >
                             <Image
                                 src={brand.src}
                                 alt={brand.name}
-                                width={120}
-                                height={60}
-                                className="max-h-12 w-auto object-contain"
+                                width={180}
+                                height={90}
+                                className="max-h-20 w-auto object-contain"
                             />
                         </div>
                     ))}
