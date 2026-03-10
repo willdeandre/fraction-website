@@ -118,10 +118,11 @@ export default function About() {
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-2 gap-px md:grid-cols-4">
             {[
-              { name: "Vanderbilt University", src: "/vanderbilt-logo.png" },
-              { name: "Lehigh University", src: "/lehigh-logo.png" },
-              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
               { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
+              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
+              { name: "Lehigh University", src: "/lehigh-logo.png" },
+              { name: "Vanderbilt University", src: "/vanderbilt-logo.png" },
+
 
             ].map((logo) => (
               <div
