@@ -30,7 +30,7 @@ export default function BrandsMarquee() {
         <section className="w-full overflow-hidden border-t border-[#72B8E2]/50 px-6 py-32">
             <div className="mx-auto max-w-7xl">
                 <p className="mb-4 text-xs tracking-[0.35em] uppercase text-[#72B8E2]/70">
-                    Clients
+                    Our Work
                 </p>
                 <h2 className="mb-16 max-w-md text-4xl font-semibold tracking-tight md:text-5xl">
                     Trusted by
