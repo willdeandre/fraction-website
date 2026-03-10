@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const inquiryTypes = [
   "NIL Representation",
-  "resentation",
+  "Representation",
   "Marketing",
   "Player Development",
   "Analytics",
