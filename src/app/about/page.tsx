@@ -7,12 +7,12 @@ const credentials = [
   "NBPA Certified Agent",
   "NIL Certified Agent",
   "2025 Top 80 Most Influential Person in NIL",
-  "Graduate Assistant, Vanderbilt University",
-  "Master's of Economics, Vanderbilt University",
-  "Team Captain, Lehigh University",
-  "Bachelor's of Finance, Lehigh University",
-  "Illinois Wolves Alumni",
-  "Brewster Academy Alumni",
+  // hidden for now "Graduate Assistant, Vanderbilt University",
+  // hidden for now "Master's of Economics, Vanderbilt University",
+  // hidden for now "Team Captain, Lehigh University",
+  // hidden for now "Bachelor's of Finance, Lehigh University",
+  // hidden for now "Illinois Wolves Alumni",
+  // hidden for now "Brewster Academy Alumni",
 ];
 
 const stats = [
