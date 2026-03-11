@@ -116,12 +116,11 @@ export default function About() {
       {/* Affiliations */}
       <section className="border-t border-[#72B8E2]/50 px-6 py-20">
         <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-2 gap-px md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-px md:grid-cols-3">
             {[
-              { name: "Illinois Wolves", src: "/illinois-wolves-logo.png" },
-              { name: "Brewster Academy", src: "/brewster-high-school-logo.png" },
               { name: "Lehigh University", src: "/lehigh-logo.png" },
               { name: "Vanderbilt University", src: "/vanderbilt-logo.png" },
+              { name: "NBPA Certified", src: "/nba-logo.png" },
 
 
             ].map((logo) => (
