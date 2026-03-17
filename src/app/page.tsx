@@ -6,12 +6,12 @@ const services = [
   {
     label: "NBA",
     description:
-      "Representing and advising players at the NBA and G League levels, including contract negotiation, career strategy, team fit evaluation, and long- term financial positioning.",
+      "Representing players at the NBA and G League levels, emphasizing fit and opportunity for success.",
   },
   {
     label: "NIL",
     description:
-      "Structuring and negotiating Name, Image, and Likeness opportunities with a focus on long-term brand equity, contract optimization, and sustainable athlete growth.",
+      "Negotiating opportunities for athletes at the Prep and NCAA levels."
   },
   {
     label: "Player Development",
@@ -69,7 +69,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-8 max-w-md text-base leading-7 text-white/50">
-          Fraction is a sports capital firm helping athletes, coaches, teams, and brands grow through sharper strategy and measurable results.
+          Fraction is a sports capital firm helping athletes, coaches, teams, and brands reach their goals.
         </p>
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row">
