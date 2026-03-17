@@ -16,7 +16,7 @@ const credentials = [
 ];
 
 const stats = [
-  { value: "$10M+", label: "Structured in Client Compensation" },
+  { value: "$15M+", label: "Structured in Client Compensation" },
   { value: "2025", label: "Top 80 Most Influential in NIL" },
 ];
 
@@ -96,7 +96,7 @@ export default function About() {
               </p>
               <p>
                 Recognized as one of the 2025 Top 80 Most Influential People in
-                NIL, Jack continues to shape the future of athlete representation
+                NIL by Silver Waves Media, Jack continues to shape the future of athlete representation
                 through Fraction&apos;s NIL, NBA, player development, FIBA, marketing, and analytics services.
               </p>
             </div>
@@ -115,7 +115,7 @@ export default function About() {
       </section>
 
       {/* Affiliations */}
-      <section className="border-t border-[#72B8E2]/50 px-6 py-20">
+      {/* <section className="border-t border-[#72B8E2]/50 px-6 py-20">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-2 gap-px md:grid-cols-3">
             {[
@@ -144,7 +144,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats */}
       <section className="border-t border-[#72B8E2]/50 px-6 py-24">
