@@ -16,7 +16,7 @@ const services = [
   {
     label: "Player Development",
     description:
-      "Performance coaching and analytics to maximize on-court performance."
+      "Coaching and tools to maximize athlete performance."
   },
   {
     label: "FIBA",
@@ -31,7 +31,7 @@ const services = [
   {
     label: "Analytics",
     description:
-      "Leveraged data used for valuation and decision making on and off the court."
+      "Leveraged data for valuation on and off the court."
   },
 ];
 
