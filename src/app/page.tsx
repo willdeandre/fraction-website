@@ -31,7 +31,7 @@ const services = [
   {
     label: "Analytics",
     description:
-      "Leveraging performance data, market intelligence, and financial modeling to inform smarter decisions on and off the court.",
+      "Leveraged data used for valuation and decision making on and off the court."
   },
 ];
 
