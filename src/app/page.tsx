@@ -26,7 +26,7 @@ const services = [
   {
     label: "Marketing",
     description:
-      "Building athlete and organizational brands through positioning strategy, partnership alignment, and targeted campaign execution.",
+      "Mutually aligned partnerships between athletes and brands.",
   },
   {
     label: "Analytics",
