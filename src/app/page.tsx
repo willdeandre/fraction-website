@@ -21,7 +21,7 @@ const services = [
   {
     label: "FIBA",
     description:
-      "Advising players and partners in international basketball markets, including contract navigation, league placement strategy, and global positioning.",
+      "Partnered opportunities for players across international markets.",
   },
   {
     label: "Marketing",
