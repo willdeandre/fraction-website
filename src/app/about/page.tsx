@@ -89,9 +89,10 @@ export default function About() {
                 all areas of their life.
               </p>
               <p>
-                Jack has experience as a Graduate Assistant at Vanderbilt University, where he worked under NBA legend Jerry Stackhouse and coached NBA players Scotty Pippen Jr
-                and Liam Robbins while earning a master's degree in applied economics. He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors
-                distinction. Jack brings a rare combination of on-court knowledge and business acumen; he has structured more than $10 million in compensation for his clients.
+                Jack has experience as a Graduate Assistant at Vanderbilt University, where he coached multiple NBA players while earning
+                a master's degree in applied economics. He would go on to start Ex-Pats in the TBT Tournament, and has also coached for Maccabi 
+                and the Illinois Wolves. He was also a Team Captain for the Men's Basketball Team at Lehigh University, where he graduated with a finance degree and honors distinction. 
+                Jack brings a rare combination of on-court experience and business acumen; he has structured more than $10 million in compensation for his clients.
               </p>
               <p>
                 Recognized as one of the 2025 Top 80 Most Influential People in
