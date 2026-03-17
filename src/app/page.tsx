@@ -69,7 +69,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-8 max-w-md text-base leading-7 text-white/50">
-          Fraction is a sports capital firm helping athletes, coaches, teams, and brands reach their goals.
+          Fraction is a sports advisory firm helping athletes, coaches, teams, and brands reach their goals.
         </p>
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row">
