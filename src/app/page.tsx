@@ -11,7 +11,7 @@ const services = [
   {
     label: "NIL",
     description:
-      "Negotiating opportunities for athletes at the Prep and NCAA levels."
+      "Negotiating opportunities for athletes at the Prep, Grassroots, and NCAA levels."
   },
   {
     label: "Player Development",
