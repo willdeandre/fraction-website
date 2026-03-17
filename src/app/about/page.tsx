@@ -82,15 +82,15 @@ export default function About() {
           <div className="flex flex-col justify-center gap-10">
             <div className="flex flex-col gap-5 text-sm leading-8 text-white/55">
               <p>
-                Jack Lieb is the Founder of Fraction and an NBPA Certified Agent. A former collegiate athlete 
-                and coach, Jack understands and cares deeply about his players.
+                Jack Lieb is the Founder of Fraction and resides in Chicago, Illinois. A licensed 
+                NBPA certified agent and NIL agent, Jack guides players towards success.
                 He built Fraction on the belief that athletes deserve precise, 
                 trusted representation — not just at the negotiating table, but throughout 
                 all areas of their life.
               </p>
               <p>
-                Jack has experience as a Graduate Assistant at Vanderbilt University, where he worked under NBA legend Jerry Stackhouse and coached NBA player Scotty Pippen Jr
-                while earning a master's degree in applied economics. He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors
+                Jack has experience as a Graduate Assistant at Vanderbilt University, where he worked under NBA legend Jerry Stackhouse and coached NBA players Scotty Pippen Jr
+                and Liam Robbins while earning a master's degree in applied economics. He was also a Team Captain at Lehigh University, where he graduated with a finance degree and honors
                 distinction. Jack brings a rare combination of on-court knowledge and business acumen; he has structured more than $10 million in compensation for his clients.
               </p>
               <p>
