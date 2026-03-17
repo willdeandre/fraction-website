@@ -6,12 +6,12 @@ const services = [
   {
     label: "NBA",
     description:
-      "Representing players at the NBA and G League levels, emphasizing fit and opportunity for success.",
+      "Representing players at the NBA level, prioritizing fit while maximizing opportunity for success.",
   },
   {
     label: "NIL",
     description:
-      "Negotiating opportunities for athletes at the Prep, Grassroots, and NCAA levels."
+      "Contract negotiations for athletes at the Prep, Grassroots, and NCAA levels."
   },
   {
     label: "Player Development",
