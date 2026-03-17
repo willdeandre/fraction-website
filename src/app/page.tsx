@@ -16,7 +16,7 @@ const services = [
   {
     label: "Player Development",
     description:
-      "Designing individualized development plans that integrate skill progression, performance analytics, and professional readiness to maximize on-court impact.",
+      "Performance coaching and analytics to maximize on-court performance."
   },
   {
     label: "FIBA",
